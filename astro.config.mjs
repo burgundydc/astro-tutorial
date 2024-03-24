@@ -8,6 +8,6 @@ import sitemap from "@astrojs/sitemap";
 export default defineConfig({
   site: 'https://astrotutorial45464674768.netlify.app',
   integrations: [alpinejs(), sitemap()],
-  output: "server",
+  output: "hybrid",
   adapter: netlify()
 });
